@@ -1,0 +1,4 @@
+rootProject.name = 'queryfunctioninjpa'
+include 'src:test:StepDefinition'
+findProject(':src:test:StepDefinition')?.name = 'StepDefinition'
+
